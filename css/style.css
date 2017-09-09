@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav > a {
+  color: black;
+}
+
+p > a {
+  color: black;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+div {
+  margin: 0 auto;
+  width: 600px;
+}
+
+img.bio {
+  margin-top: 5px;
+  width: 150px;
+  float: right;
+  padding: 5px;
+}
+
+img.interests{
+  width:600px;
+  margin-bottom:0px;
+}
+
+p::first-letter {
+  font-size: 120%;
+}
+
+h3 {
+  margin-top: 0px;
+  font-size: 8px;
+  color: gray;
+  float: bottom;
+  text-align: right;
+  font-weight: normal;
+}
