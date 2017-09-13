@@ -1,0 +1,102 @@
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  padding: 30px;
+  border-left: 5px solid #BBB;
+}
+
+section {
+  text-align: left;
+}
+
+aside.index {
+  margin-top: 4px;
+  border-bottom: 4px solid #BBB;
+  border-left: 4px solid #BBB;
+  max-width: 600px;
+}
+
+aside.interests {
+  margin-top: 4px;
+  border-bottom: 4px solid #BBB;
+  border-left: 4px solid #BBB;
+  max-width: 385px;
+}
+
+footer {
+  margin-top: 80px;
+}
+
+footer.interests {
+  float: left;
+}
+
+div {
+  float: left;
+  width: 38%;
+}
+
+div.right {
+  margin-left: 30px;
+}
+
+nav {
+  margin-bottom: 16px;
+}
+
+section p {
+  font-size: 14px;
+  padding: 8px;
+  margin: 0;
+  max-width: 600px;
+}
+
+section.interests p {
+  font-size: 18px;
+}
+
+h3 {
+  padding: 10px;
+}
+
+#resize {
+  max-height: 500px;
+  max-width: 600px;
+  margin-top: 30px;
+}
+
+img.resize2 {
+  max-height: 300px;
+  max-width: 385px;
+  margin-top: 30px;
+}
+
+#reduce {
+  max-height: 238px;
+  width: 120%;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFFF00;
+  text-shadow: -.14px -.14px 0 #BBB,
+                .14px .14px #BBB;
+}
+
+span.stretch {
+  margin: 8px;
+  font-size: 18px;
+  display: inline-block;
+  -webkit-transform: scale(1.16,1);
+}
