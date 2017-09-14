@@ -1,0 +1,76 @@
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  height: 100vh;
+  /*border: 1px solid black;*/
+}
+
+header, section, footer {
+  background-color: lightgray;
+  border: 2px solid #333333;
+  margin: 10px;
+  width: 1060px;
+}
+
+header {
+  font-size: 30px;
+  text-align: center;
+}
+
+section {
+  float: left;
+}
+
+footer {
+  float: left;
+  clear: both;
+  text-align: center;
+}
+
+img {
+  margin: 10px;
+  float: right;
+}
+
+nav  {
+  font-size: 16px;
+  color: black;
+  margin: 10px;
+}
+nav a {
+  font-size: 16px;
+  color: black;
+}
+
+section p, section img {
+  margin: 10px;
+  float: left;
+}
+
+.description {
+  float: left;
+  width: 65%;
+}
+
+.activity {
+  float: left;
+  width: 100%;
+}
+
+.activity_pic {
+  height: 200px;
+  width: 200px;
+}
+
+.list {
+  float: left;
+  clear: both;
+  margin: 20px;
+}
+
+h3 {
+  text-align: center;
+  width: 500px;
+  float: left;
+}
+
