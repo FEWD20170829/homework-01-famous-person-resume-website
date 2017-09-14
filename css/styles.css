@@ -2,14 +2,17 @@
   width: 1080px;
   margin: 0 auto;
   height: 100vh;
-  /*border: 1px solid black;*/
 }
 
 header, section, footer {
   background-color: lightgray;
   border: 2px solid #333333;
-  margin: 10px;
   width: 1060px;
+}
+
+footer {
+  background-color: black;
+  color: white;
 }
 
 header {
@@ -27,19 +30,10 @@ footer {
   text-align: center;
 }
 
-img {
-  margin: 10px;
-  float: right;
-}
-
-nav  {
+nav, nav a {
   font-size: 16px;
   color: black;
   margin: 10px;
-}
-nav a {
-  font-size: 16px;
-  color: black;
 }
 
 section p, section img {
@@ -57,7 +51,7 @@ section p, section img {
   width: 100%;
 }
 
-.activity_pic {
+.activity img {
   height: 200px;
   width: 200px;
 }
@@ -65,7 +59,11 @@ section p, section img {
 .list {
   float: left;
   clear: both;
-  margin: 20px;
+  margin: 0px 20px;
+}
+
+h2 {
+  margin: 10px;
 }
 
 h3 {
@@ -74,3 +72,11 @@ h3 {
   float: left;
 }
 
+dd {
+  margin: 10px;
+}
+
+dt {
+  font-style: italic;
+  text-decoration: underline;
+}
