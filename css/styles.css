@@ -1,0 +1,79 @@
+
+
+body  {
+  background-color: gray;
+  border-bottom: 5px solid #222222;
+  border-top: 5px solid #222222;
+  font-family: Lucida;
+  font-size: 18px;
+  color:#ffffff;
+  line-height: 1.5;
+  margin: 30px;
+  padding:50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 124px;
+
+}
+h2  {
+  font-style: underline;
+}
+
+p{
+  text-align: left;
+  font-size:18px;
+}
+
+nav{
+
+  text-align: center;
+}
+
+.edie{
+float: right;
+width:570px;
+height:450px;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.edie2{
+  float:left;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-right:10px;
+  padding-left:10px;
+  width:200px;
+  height:200px;
+}
+.about {
+  float: left;
+  width:400px;
+  font-size:20px;
+  padding-top:80px;
+  text-align: justify;
+}
+
+.quotes{
+  font-style: italic;
+}
+
+.subtitle{
+  text-align: center;
+}
+.experience{
+  border-bottom: 5px solid #222222;
+  padding-top: 30px;
+}
+
+.edie3{
+  float:right;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-right:10px;
+  padding-left:10px;
+  width:350px;
+  height:300px;
+}
