@@ -1,0 +1,100 @@
+body {
+  font-family: sans-serif;
+  background-color: #2CC1A6;
+  width: 960px;
+  margin: 0 auto;
+}
+
+p {
+  width: 300px;
+  color: #3B3F3E;
+}
+
+.intro {
+  margin-left: 175px;
+}
+
+img {
+  border: solid black 2px;
+  margin: 5px;
+}
+
+.image {
+  font-size: smaller;
+  font-style: italic;
+  text-align: center;
+}
+
+.gif {
+  position: relative;
+  right: 175px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.history-image {
+  margin-top: 10px;
+}
+h1 {
+  font-family: georgia;
+  font-size: 42pt;
+  color: #3B3F3E;
+  margin-bottom: 10px;
+  border-bottom: solid black;
+  padding: 5px;
+  width: 960px;
+  text-align: center;
+}
+
+h2 {
+  font-style: italic;
+  color: #575F5D;
+  font-family: georgia;
+  text-align: center;
+}
+
+h3 {
+  font-style: italic;
+  color: #3B3F3E;
+  margin-bottom: 1px;
+}
+
+h3+p {
+  font-size: 14px;
+  margin-top: 2px;
+  margin-bottom: 3px;
+}
+
+nav+img {
+  margin-top: 20px;
+}
+
+.description {
+  margin-left: 10px;
+  margin-top: 3px;
+  width: 400px;
+}
+
+nav {
+  font-family: georgia;
+  color: #3B3F3E;
+  text-align: center;
+}
+
+strong {
+  font-style: italic;
+}
+
+a:visited {
+  color: #636766;
+}
+
+a:hover {
+  color: #3B3F3E;
+}
+
+p > a:visited {
+  color: #3B3F3E;
+}
