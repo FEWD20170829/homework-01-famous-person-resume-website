@@ -2,30 +2,30 @@
   font-family: 'Roboto', sans-serif;
 }
 
-body#home {
-  margin: 0;
+#home {
+  margin: 0px;
   background-color: #ADD8E6;
   color: white;
 }
 
-body#about {
-  margin: 0;
+#about {
+  margin: 0px;
   background-color: white;
   color: gray;
 }
 
-body#experience {
-  margin: 0;
+#experience {
+  margin: 0px;
   background-color: white;
   color: gray;
 }
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   position: fixed;
-  top: 0;
+  top: 0px;
   width: 100%;
 }
 
@@ -33,7 +33,6 @@ li {
   display: inline;
   float: right;
 }
-
 
 a.general {
   text-decoration: none;
@@ -139,20 +138,14 @@ div {
 }
 
 .main {
-  margin-top: 20;
+  margin-top: 20px;
 }
 
 .section {
-  margin-top: -15;
+  margin-top: -15px;
 }
 
-.experience {
-  margin-top: 100px;
-  margin-left: 225px;
-  margin-right: 320px;
-}
-
-.about {
+.experience, .about {
   margin-top: 100px;
   margin-left: 225px;
   margin-right: 320px;
