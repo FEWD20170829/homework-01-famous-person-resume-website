@@ -1,0 +1,112 @@
+/*Styling for Bio page*/
+
+body.bio {
+  background-image: url('https://pbs.twimg.com/profile_images/872735699488866304/3X7wPXrK_400x400.jpg');
+}
+
+p.bio, a.bio, h1.bio, nav.bio{
+  color: white;
+  font-weight: bolder;
+  font-family: Optima;
+  text-shadow: 8px 8px 16px black;
+  text-align: center;
+}
+
+h1.bio {
+  font-size: 78px;
+}
+
+p.bio {
+  width: 700px;
+  font-size: 28px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+nav.bio {
+  width: 700px;
+  margin:auto;
+  margin-bottom: 30px;
+  font-size: 34px;
+}
+
+a.bio:hover {
+  color:blue;
+}
+
+a.bio {
+  text-decoration:none;
+}
+
+/*End styling for bio page*/
+/*Begine styling for experience page*/
+
+body.exp {
+  background-color: gray;
+  
+}
+
+a.exp, h1.exp, nav.exp, p.exp {
+  color: white;
+  font-weight: bolder;
+  font-family: Optima;
+  text-shadow: 8px 8px 16px black;
+  text-align:center;
+}
+
+h1.exp {
+  font-size: 78px;
+}
+
+nav.exp {
+  width: 700px;
+  margin:auto;
+  margin-bottom: 30px;
+  font-size: 34px;
+}
+
+div.exp {
+  color: blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.movie{
+  float: left;
+  width: 28.5%;
+  margin-left: 40px;
+  height: 600px;
+
+
+}
+
+.taylor {
+  clear:left;
+  height: 300px;
+  margin: 40px;
+
+}
+
+img.exp {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.taylorphoto {
+  float: left;
+}
+
+a.exp {
+  text-decoration:none;
+}
+
+a.exp:hover {
+  color:blue;
+}
+
+p.exp {
+  font-size: 18px;
+}
+
+
