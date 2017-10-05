@@ -2,11 +2,12 @@
 body {
 	font-family: sans-serif;
 	max-width: 800px;
-	margin: 30px;
+	text-align: center;
 }
 
 nav {
 	display: inline;
+	margin: 0 auto;
 } 
 
 nav li { 
