@@ -1,0 +1,36 @@
+
+body {
+	font-family: sans-serif;
+	max-width: 800px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+nav {
+	display: inline;
+	margin: 0 auto;
+} 
+
+nav li { 
+	list-style: none;
+	display: inline;
+	padding-right: 5px;
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.second-nav {
+	border-left: black 1px solid;
+	padding-left: 10px;
+}
+
+img {
+	width: 500px;
+    padding: 10px;
+    clear: right;
+}
+
+a {
+	text-decoration: none;
+	color: #FF0000;
+}
